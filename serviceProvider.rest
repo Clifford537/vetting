@@ -1,0 +1,30 @@
+post http://127.0.0.1:8001/service_providers/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI3MTA1MzIxLCJpYXQiOjE3MjcxMDM1MjEsImp0aSI6ImRiNzA4MjU2YzIwMjRiMGNhY2I3NDk3MmI1ODAxZWEwIiwidXNlcl9pZCI6ImJkYWRiYzQwLWRhNWUtNGYxMS1iNWViLTcyMDNhYmE0ZjBkNCJ9.d99-mThSfiSrcy-XO2aSngPyGM0jFeO1SDRwt_tFG80
+Content-Type: application/json
+
+{
+    "location": "San Francisco",
+    "skill": [
+        {
+            "skillName": "Python",
+            "proficiencyLevel": "Advanced",
+            "validated": true
+        },
+        {
+            "skillName": "JavaScript",
+            "proficiencyLevel": "Intermediate",
+            "validated": true
+        }
+    ],
+    "experience": [
+        {
+            "jobTitle": "Software Engineer",
+            "company": "TechCorp",
+            "location": "Remote",
+            "startDate": "2021-01-01",
+            "endDate": "2022-01-01",
+            "description": "Worked on web applications"
+        }
+    ],
+    "portfolio": "https://portfolio-link.com"
+}

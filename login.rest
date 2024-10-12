@@ -1,0 +1,7 @@
+post http://127.0.0.1:8000/user_account/api/token/
+Content-Type: application/json
+
+{
+    "email": "milugo@gmail.com",
+    "password": "2704Mogo"
+}

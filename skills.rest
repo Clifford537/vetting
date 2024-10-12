@@ -1,0 +1,12 @@
+POST http://127.0.0.1:8001/vetting/skills/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI3MTEwMjMxLCJpYXQiOjE3MjcxMDg0MzEsImp0aSI6IjAzZjk2NjkxNGJjNzQ1MWU5ZjI5NDQ1ODE2YTc2NzVlIiwidXNlcl9pZCI6ImM0NTNiNzAxLTQ5OTYtNDYzZi05ODc3LWE1NmFlYWI3YTQ1NyJ9.ZPQ4nY0Ut6U7o-d5kKBI4cKMSFieKA0TWLg3JdVjiJU
+Content-Type: application/json
+
+{
+    "user": 1,
+    "skillName": "Python Programming",
+    "proficiencyLevel": "Advanced",
+    "endorsedBy": [1],
+    "validated": true
+}
+

@@ -1,0 +1,12 @@
+post http://127.0.0.1:8001/vetting/experiences/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI3MjY1MTc1LCJpYXQiOjE3MjcyNjMzNzUsImp0aSI6ImIyZDQ5NDBiMDE4MTRmZjJiYzg2NjJjNjVlYWU5MDNkIiwidXNlcl9pZCI6Mn0.82hnx1_N3h38yPr6WD2Sy9KYLpuPVSc8SuUkOKipThU
+Content-Type: application/json
+
+{
+    "id": 1,
+    "job_title": "Software Engineer",
+    "company_name": "Google",
+    "start_date": "2022-01-01",
+    "end_date": "2023-01-01",
+    "description": "Worked on web applications"
+}

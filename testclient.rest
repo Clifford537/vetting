@@ -1,0 +1,10 @@
+POST http://127.0.0.1:8001/vetting/clients/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI3MjU5MDg1LCJpYXQiOjE3MjcyNTcyODUsImp0aSI6IjM5YmRmYzFkMWY2YTQ4ZGU4YWRkY2I4ZTQ0OWU2M2VjIiwidXNlcl9pZCI6ImM0NTNiNzAxLTQ5OTYtNDYzZi05ODc3LWE1NmFlYWI3YTQ1NyJ9.MS8Iz_6t6RPstuCBSyPI6Y8fMxUz9_X1N0ifOdUKyds
+Content-Type: application/json
+
+{
+    "company_name": "Acme Corp",
+    "address": "123 Main Street",
+    "phone_number": "+1234567890",
+    "location": "New York"
+}
